@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel 12 dengan Tailwind CSS</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    @vite('resources/css/app.css')
-</head>
-<body class="">
-    <x-navbar></x-navbar>
-    <nav class="flex justify-between items-center px-5 py-4">
+<nav class="flex justify-between items-center px-5 py-4">
         <div class="flex gap-5 w-fit items-center justify-center">
             <img src="{{ asset('images/Logo.png') }}" class="max-w-[150px] max-h-[63px]">
             <a>Explore</a>
@@ -25,5 +14,3 @@
             <div class="w-[50px] h-[50px] rounded-full bg-gray-400"> </div>
         </div>
     </nav>
-</body>
-</html>
