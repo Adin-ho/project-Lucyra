@@ -6,7 +6,13 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        header: ["Audiowide", "sans-serif"],
+        paragraph: ["Exo", "sans-serif"],
+        navbar: ["Space Grotesk", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

@@ -1,8 +1,8 @@
 <nav class="flex justify-between items-center px-5 py-4">
         <div class="flex gap-5 w-fit items-center justify-center">
             <img src="{{ asset('images/Logo.png') }}" class="max-w-[150px] max-h-[63px]">
-            <a>Explore</a>
-            <a>Blog</a>
+            <a class="text-xl font-navbar">Explore</a>
+            <a class="text-xl font-navbar">Blog</a>
         </div>
         <div class="flex border-black border rounded-2xl p-2 gap-2 max-w-[500px] w-full">
             <svg  xmlns="http://www.w3.org/2000/svg"  width="25"  height="25"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
